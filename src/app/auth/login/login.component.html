@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-spinner *ngIf="isPageLoading"></mat-spinner> <!--If The Page Is Loading Then Show Spinner Until It Stops-->
+  <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isPageLoading"> <!--The Form Is Of Type ngForm, And Is Show If The Page Isn't Loading-->
+    <mat-form-field>
+      <input matInput name="email" ngModel type="email" placeholder="E-Mail Address" #emailInput="ngModel" required email> <!--ngModel Allows The Tracking Of The Value The User Puts Into The Input Field-->
+      <mat-error *ngIf="emailInput.invalid">Please Enter A Valid E-Mail Address...</mat-error> <!--If The E-Mail Address Doesn't Have The Correct Formatting To Be An E-Mail Address-->
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="password" name="password" ngModel placeholder="Password" #passwordInput="ngModel" required> <!--ngModel Allows The Tracking Of The Value The User Puts Into The Input Field-->
+      <mat-error *ngIf="passwordInput.invalid">Please Enter A Valid Password...</mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit" *ngIf="!isPageLoading">Login User...</button> <!--Show Once The Page Isn't Loading-->
+  </form>
+</mat-card>

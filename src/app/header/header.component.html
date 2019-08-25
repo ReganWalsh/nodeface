@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <span>
+    <a routerLink="/">Home</a>
+  </span>
+  <span class="spacer"></span>
+  <ul>
+    <li *ngIf="userIsAuthenticated"> <!--Only Able To Create Post If Authenticated-->
+      <a mat-button routerLink="/create" routerLinkActive="mat-accent">Create New Post</a>
+    </li>
+    <li *ngIf="!userIsAuthenticated"> <!-- Can Only Login If Not Already Authenticated-->
+      <a mat-button routerLink="/auth/login" routerLinkActive="mat-accent">Log-In</a>
+    </li>
+    <li *ngIf="!userIsAuthenticated"> <!--Can Only Signup If Not Already Authenticated-->
+      <a mat-button routerLink="/auth/signup" routerLinkActive="mat-accent">Sign-Up</a>
+    </li>
+    <li *ngIf="userIsAuthenticated"> <!--Onnly Able To Logout If Logged In-->
+      <button mat-button (click)="onLogout()">Log-Out</button>
+    </li>
+  </ul>
+</mat-toolbar>

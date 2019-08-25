@@ -1,0 +1,7 @@
+mat-form-field { /* The Field Where The User Enters Their E-Mail Address And Password */
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}

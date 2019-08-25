@@ -1,0 +1,21 @@
+mat-form-field, /* Where User Puts Title And Content In On Page */
+textarea { /* Actual Area For The Content */
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+input[type="file"] { /* If Is A File And Not An Image, Hide It */
+  visibility: hidden;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img {
+  height: 100%;
+}

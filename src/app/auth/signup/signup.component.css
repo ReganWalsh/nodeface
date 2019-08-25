@@ -1,0 +1,7 @@
+mat-form-field { /* Where The User Enters Their E-Mail And Password To Signup */
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
