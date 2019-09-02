@@ -17,7 +17,7 @@ Clone or download the repo and move into the project repository and execute ```n
 
 * Creating an AngularJS front-end using Angular Material
 * Using routes with Express.js
-* Using BCrypt to has passwords for entry.
+* Using BCrypt to hash passwords.
 * Creating tokens with jsonwebtoken
 * Implementing a MongoDB database using Mongoose
 
