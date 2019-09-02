@@ -8,10 +8,10 @@
 ![forthebadge](https://img.shields.io/badge/uses-mongodb-blue.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 
 # *Node-Face Blog*
-This application is a simple application where a user is able to create an account with the service and post updates to a blog showcasing photos and blog entries.
+This application uses HTML integrated with AngularJS as a front-end,  and allows users to create an account with the application and post blog entries including photos which are then posted on a homepage for all users to see. Persistant storage is implemented using MongoDB, routing was handled using Express and the Front-End was created using Angular Material provided by the AngularJS Framework.
 
 ## *To Run:*
-Clone or download the repo and move into the project repository and execute ```npm install``` to install all dependencies for the project. Move into the project the directory and execute ```npm run start:server``` to run the service associated with the application. To run the Angular front-end execute ```ng serve``` . The application service runs on ```localhost:3000```. The Angular Front-End runs on ```localhost:4200```.
+Clone or download the repo and move into the project repository and execute ```npm install``` to install all dependencies for the project. Execute ```npm run start:server``` to run the service associated with the application. To run the front-end execute ```ng serve``` . The application service runs on ```localhost:3000```. The front-end runs on ```localhost:4200```.
 
 ## *What I Learned:*
 
