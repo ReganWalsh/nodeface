@@ -11,7 +11,7 @@
 This application uses  HTML integrated with AngularJS as a front-end, and allows users to create an account through the application and post blog entries including photos which are then posted on a homepage for all users to see. Persistent storage is implemented using MongoDB, routing was handled using Express and the Front-End was created using Angular Material provided by the AngularJS Framework.
 
 ## *To Run:*
-Clone or download the repo and move into the project repository and execute ```npm install``` to install all dependencies for the project. Execute ```npm run start:server``` to run the service associated with the application. To run the front-end execute ```ng serve``` . The application service runs on ```localhost:3000```. The front-end runs on ```localhost:4200```.
+Clone or download the repo and move into the project directory and execute ```npm install``` to install all dependencies for the project. Execute ```npm run start:server``` to run the service associated with the application. To run the front-end execute ```ng serve``` . The application service runs on ```localhost:3000```. The front-end runs on ```localhost:4200```.
 
 ## *What I Learned:*
 
