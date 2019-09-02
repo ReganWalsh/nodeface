@@ -3,7 +3,7 @@
 ![forthebadge](https://img.shields.io/badge/made%20with-HTML5-red.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![forthebadge](https://img.shields.io/badge/made%20with-CSS3-red.svg?style=for-the-badge&logo=CSS3&logoColor=white)<br>
 ![forthebadge](https://img.shields.io/badge/uses-node.js-blue.svg?style=for-the-badge&logo=Node.js&logoColor=white)
-![forthebadge](https://img.shields.io/badge/uses-angular.js-blue.svg?style=for-the-badge&logo=Angular&logoColor=white)
+![forthebadge](https://img.shields.io/badge/uses-angularjs-blue.svg?style=for-the-badge&logo=Angular&logoColor=white)
 ![forthebadge](https://img.shields.io/badge/uses-express-blue.svg?style=for-the-badge)
 ![forthebadge](https://img.shields.io/badge/uses-mongodb-blue.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 
