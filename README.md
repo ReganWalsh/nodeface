@@ -1,11 +1,10 @@
-![forthebadge](https://img.shields.io/badge/made%20with-TypeScript-red.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
-![forthebadge](https://img.shields.io/badge/made%20with-JavaScript-red.svg?style=for-the-badge&logo=JavaScript&logoColor=white)
-![forthebadge](https://img.shields.io/badge/made%20with-HTML5-red.svg?style=for-the-badge&logo=HTML5&logoColor=white)
-![forthebadge](https://img.shields.io/badge/made%20with-CSS3-red.svg?style=for-the-badge&logo=CSS3&logoColor=white)<br>
-![forthebadge](https://img.shields.io/badge/uses-node.js-blue.svg?style=for-the-badge&logo=Node.js&logoColor=white)
-![forthebadge](https://img.shields.io/badge/uses-angularjs-blue.svg?style=for-the-badge&logo=Angular&logoColor=white)
-![forthebadge](https://img.shields.io/badge/uses-express-blue.svg?style=for-the-badge)
-![forthebadge](https://img.shields.io/badge/uses-mongodb-blue.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
+![forthebadge](https://img.shields.io/badge/made%20with-TypeScript-007ACC.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+![forthebadge](https://img.shields.io/badge/made%20with-JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white)
+![forthebadge](https://img.shields.io/badge/made%20with-HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![forthebadge](https://img.shields.io/badge/made%20with-CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)<br>
+![forthebadge](https://img.shields.io/badge/uses-node.js-339933.svg?style=for-the-badge&logo=Node.js&logoColor=white)
+![forthebadge](https://img.shields.io/badge/uses-angularjs-E23237.svg?style=for-the-badge&logo=AngularJS&logoColor=white)
+![forthebadge](https://img.shields.io/badge/uses-mongodb-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 
 # *Node-Face Blog*
 This application uses  HTML integrated with AngularJS as a front-end, and allows users to create an account through the application and post blog entries including photos which are then posted on a homepage for all users to see. Persistent storage is implemented using MongoDB, routing was handled using Express and the Front-End was created using Angular Material provided by the AngularJS Framework.
